@@ -14,12 +14,15 @@
             <a href="" class="logo">Portfolio<span>Website</span> </a>
 
             <ul class="nav-links active">
-                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">Home</a></li>
                 <li><a href="#About">About</a></li>
                 <li><a href="#Skills">Skills</a></li>
                 <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Services">Domains</a></li>
+                <li><a href="#Hobbies">Hobbies</a></li>
                 <li><a href="#Contact">Contact</a></li>
             </ul>
+            <button><i class="fa fa-bars"></i></button>
         </div>
     </nav>
     <!-- End Navbar -->
@@ -27,7 +30,7 @@
     <header>
         <div class="container header-container">
             <div class="header-left">
-                <h1>Python <br> & Web Developement</h1>
+                <h1>Python <br> & Web Development</h1>
                 <h3>Hi, I'm Ashish Koushik</h3>
                 <p>
                     A motivated 7th-semester student at BIT College, specializing in frontend development and Python, <br> with a passion for creating elegant and user-friendly digital experiences. Ready to innovate and create.
@@ -39,8 +42,9 @@
             <div class="header-right">
                 <div class="circle">
                     <a href=""><i class="fab fa-facebook"></i></a>
-                    <a href=""><i class="fab fa-instagram"></i></a>
-                    <a href=""><i class="fab fa-linkedin"></i></a>
+                    <a href="https://instagram.com/koushikashish12?igshid=OGQ5ZDc2ODk2ZA=="><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ashish-koushik-7aa7a1256/
+                    "><i class="fab fa-linkedin"></i></a>
                     <a href=""><i class="fab fa-twitter"></i></a>
                 </div>
                 <div class="hero-image">
@@ -78,7 +82,7 @@
                     can help me gain interest towards new field of
                     technologies.
                 </p><br>
-                <a href="" class="btn">Contact Me</a>
+                <a href="#Contact" class="btn">Contact Me</a>
             </div>
         </div>
     </section>
@@ -152,7 +156,7 @@
     </section>
     <!-- End Skills section -->
 
-    <!-- STart Portfolio section -->
+    <!-- Start Portfolio section -->
     <section id="Portfolio">
         <h2>Portfolio</h2>
         <div class="container portfolio-container">
@@ -190,14 +194,63 @@
         </div>
     </section>
     <!-- End Portfolio section -->
+    <!-- ... Start Services... -->
+    <section id="Services">
+        <h2>Domains Known</h2>
+        <div class="container services-container">
+            <div class="service">
+                <i class="fas fa-code"></i>
+                <h4>Web Development</h4>
+                <p>Creating responsive and user-friendly websites using the latest web technologies.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-mobile-alt"></i>
+                <h4>Mobile App Development</h4>
+                <p>Designing and building mobile applications for iOS and Android platforms.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-database"></i>
+                <h4>Database Management</h4>
+                <p>Designing and managing databases for efficient data storage and retrieval.</p>
+            </div>
+            <div class="service">
+                <i class="fa-brands fa-nfc-directional"></i>
+                <h4>Data Structures</h4>
+                <p>Organize and store data efficiently, manipulation, and retrieval of information in algorithms and applications.</p>
+            </div>
+        </div>
+    </section>
+    <!-- ... End Services... -->
+    <!-- Start Hobbies Section -->
+    <section id="Hobbies">
+        <h2>Hobbies</h2>
+        <div class="container hobbies-container">
+            <div class="hobby">
+                <i class="fa-solid fa-cube"></i>
+                <h4>Solving Cubes</h4>
+                <p>The Rubik's Cube is a puzzle that challenges the player to solve it by aligning the colors on each face, requires logic, strategy, and spatial reasoning.</p>
+            </div>
+            <div class="hobby">
+                <i class="fa-solid fa-dumbbell"></i>
+                <h4>Gym</h4>
+                <p>improve their physical fitness, build strength, and enhance overall well-being by promoting healthier lifestyles and reducing stress.</p>
+            </div>
+            <div class="hobby">
+                <i class="fas fa-book"></i>
+                <h4>Reading</h4>
+                <p>Immersing in books and gaining knowledge through reading.</p>
+            </div>
+        </div>
+    </section>
+    <!-- End Hobbies Section -->
 
     <!-- Start Contact Section -->
     <section id="Contact">
         <h2>Contact Me</h2>
         <div class="container contact-container">
             <a href="mailto:ashishkoushik12@gmail.com" class="fa fa-message"></a>
-            <a href=""><i class="fab fa-whatsapp"></i></a>
-            <a href=""><i class="fab fa-skype"></i></a>
+            <a href="https://instagram.com/koushikashish12?igshid=OGQ5ZDc2ODk2ZA=="><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/ashish-koushik-7aa7a1256/"><i class="fab fa-linkedin"></i></a>
         </div>
     </section>
     <!-- End Contact Section -->
@@ -209,16 +262,6 @@
         </div>
     </footer>
     <!-- End Footer Section -->
-
-    <!-- Start Script Section -->
-    <script>
-        let nav=document.querySelector('nav');
-
-        window.addEventListener('scroll',()=>{
-            nav.classList.toggle('nav-scroll',window.scrollY>0);
-        })
-    </script>
-    <!-- End Script Section -->
-
+    <script src="./index.js"></script>
 </body>
 </html>
